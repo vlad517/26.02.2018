@@ -1,0 +1,54 @@
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+nav div{
+  display: inline-block;
+}
+nav div:first-child{
+
+  width: 30%;
+}
+nav div:last-child{
+  width: 70%;
+  text-align: right;
+}
+nav div:last-child a{
+  margin-left: 2.5%;
+}
+.container{
+
+  margin-left: 8%;
+  margin-right: 8%;
+
+
+}
+nav:first-child{
+  font-size: 30px;
+}
+nav div:last-child a{
+  font-size: 20px;
+}
+header iframe{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+
+
+}
+header::after{
+  content: "hello";
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   top: 0;
+   left: 0;
+   background-image:url(../img/grid.png);
+   z-index: -1;
+}
