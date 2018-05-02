@@ -38,6 +38,7 @@ h1:after{
 }
 .col-left,.col-right{
   display: inline-block;
+  vertical-align: middle;
 
 
 }
