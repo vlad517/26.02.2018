@@ -69,3 +69,13 @@ header:after{
   margin-left: -100px; */
   left: calc(50% - 325px);
 }
+section{
+  position: absolute;
+  top: 150px;
+  width: 500px;
+
+}
+section>input{
+  margin: 20px;
+
+}
