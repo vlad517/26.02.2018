@@ -1,41 +1,10 @@
-body{
 
-  background-color: green;
-
-}
-img{
-  width: 100%;
+@media (min-width:1200px){
+.container{
+  width: 1300px;
 
 }
-ol{
-  width: 20px;
 }
-
-#cir{
-
-  position:absolute;
-  width: 300px;
-  left: 10px;
+.footer-wraper{
+  background-color: grey;
 }
-#cir li:first-child{
-  width: 30px;
-  height: 10px;
-  border-radius: 0;
-
-}
-#cir li:nth-child(2){
-  width: 30px;
-  height: 10px;
-  border-radius: 0;
-
-}
-#cir li:last-child{
-  width: 30px;
-  height: 10px;
-  border-radius: 0;
-
-}
-#arrow{
-  display: none;
-}
-.container{}
