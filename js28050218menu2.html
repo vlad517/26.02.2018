@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <script type="text/javascript">
+  // const MENU="<h1>hello</h1>";
+  const MENU="#######FOOD####\n" +
+  "1.pizza -65lei\n" +
+  "2.salat - 5 lei\n" +
+  "3.zama - 25 lei\n" +
+  "##################";
+  // alert(MENU);
+  var option = prompt(MENU);
+  if( option == null){
+alett( " nu i zrrea ");
+  }else {
+    alert("you have choosen " + option);
+    document.write(option);
+  }
+
+  
+ var quantity = prompt( "how many");
+ if (option==pizza){
+   alert(quantity*65)
+ } else if (option==salat) {
+   alert(quantity*5)
+ }else if (option==zama){
+   alert(option*25);
+ }
+
+
+  </script>
+
+</body>
+</html>
