@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style media="screen">
+    body{
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+
+  <script>
+// var n = 1;
+// while (n<=100) {
+//
+//   document.write (" # ");
+//
+//   if(n%10 == 0)
+// {
+//   document.write ("<br>");
+// }
+//
+//
+//
+//   n++
+// }
+
+// /////////////start//////////
+// var row = 1;
+// while (row<=10) {
+//
+//
+//
+// ////////////////////////
+//
+// var col = 1;
+// while (col<=10) {
+//
+//   document.write("# ");
+//   col++
+//
+// }
+// /////////////////////////
+// document.write ("<br>");
+// row++;
+//
+// }
+// ///////////finish/////////////
+
+// /////////////start//////////
+// var row = 1;
+// while (row<=10) {
+//
+//
+//
+//
+// ////////////////////////
+//
+// var col = 1;
+// while (col<=10) {
+//   if(row==1||row==10||col==1||col==10) {
+//
+//   document.write("&#127794; ");
+// }else{
+//   document.write(". ");
+// }
+//   col++
+//
+// }
+// /////////////////////////
+// document.write ("<br>");
+// row++;
+//
+// }
+// ///////////finish/////////////
+
+
+var r=prompt("row?");
+var c=prompt( "col?");
+
+
+/////////////start//////////
+var row = 1;
+while (row<=11) {
+
+
+
+
+////////////////////////
+
+var col = 1;
+while (col<=10) {
+
+  if(row==r && col==c){
+    document.write( "&#9201;");
+  }else {
+  if(row==1||row==10||col==1||col==10) {
+
+  document.write("&#127794; ");
+}else{
+  document.write(". ");
+}
+}
+  col++
+
+}
+/////////////////////////
+document.write (row+"<br>");
+row++;
+
+
+}
+///////////finish/////////////
+
+
+
+
+  </script>
+
+</body>
+</html>
