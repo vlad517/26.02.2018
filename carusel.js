@@ -52,6 +52,8 @@ function next(){
   slides.unshift(slides.pop());
   showCarusel()
 
+  setInterval( next, 3000 );
+
 
 
 }
